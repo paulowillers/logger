@@ -1,5 +1,5 @@
 {
-  "name": "pw-logger",
+  "name": "@willers/logger",
   "version": "1.0.0",
   "description": "Encapsulates logging with the winston lib",
   "main": "./src/logger.js",

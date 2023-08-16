@@ -1,10 +1,10 @@
-# pw-logger ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN)
+# logger ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN)
 ##
 Auxilia a criação de arquivos de logs utilizando a biblioteca `winston` a partir de definições em variáveis de ambiente do Node.
 
 ## Instalação
 ```
-npm install pw-logger
+npm install @willers/logger
 ```
 
 ## Stack utilizada
