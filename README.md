@@ -28,7 +28,7 @@ npm install @willers/logger
 └── README.md
 ```
 
-## Uso
+## Configuração das variáveis de ambiente
 
 No arquivo _.env_ deve ser definido na propriedade `LOGGER_NAMES` os nomes dos logs que devem ser criados. Em resumo, para cada nome sera criado um tipo de _Transports_ da biblioteca _winston_.
 
@@ -42,6 +42,18 @@ Para _DailyRotateFile_ é possivel as seguintes propriedades levando em conta qu
 * `LOGGER_ERROR_FILENAME`: Nome do arquivo a ser gerado contendo o seu caminho.
 
 Na pasta _test_ há um teste exemplificando como utilizar o logger em conjunto com o arquivo _.env_
+
+## Uso
+
+Com as variáveis de ambiente definidas, tome como exemplo o código abaixo para criação e uso de uma instância de log:
+```
+import Logger from '@willers/logger'
+const logger = Logger.create(import.meta.url);
+
+logger.error('Teste de erro');
+logger.info('Teste de informação');
+```
+
 
 # Documentação
 
